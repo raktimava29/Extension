@@ -26,5 +26,5 @@ A lightweight and minimal Chrome Extension to quickly save, view, and manage web
 
 ## 🚀 Getting Started
 
-git clone https://github.com/raktimava29/Extension.git
-cd Extension
+- git clone https://github.com/raktimava29/Extension.git
+- cd Extension
