@@ -1,0 +1,15 @@
+{
+    "manifest_version":3,
+    "version": "0.1.0",
+    "name": "Bookmarker",
+    "action":{
+        "default_popup": "bookmark.html"
+    },
+    "content_scripts": [{
+        "js": ["bm.js"],
+        "matches": ["https://*/*","https://*/*"]
+        }],
+    "permissions":[
+        "tabs"
+    ]
+}

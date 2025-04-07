@@ -1,0 +1,128 @@
+
+div{
+    display: flex;
+    width: 100%;
+    margin-left: 10px;
+    row-gap: 10px;
+}
+
+body{
+    background-color: rgb(150, 143, 143);
+    min-width: 400px;
+}
+
+::placeholder{
+    opacity: 0;
+}
+
+h1{
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 5px;
+    margin-left: 15px;
+}
+
+#inp{
+    border: 2px rgb(255, 84, 84) solid;
+    margin-left: 15px;
+    margin-bottom: 18px;
+    width: 40%;
+}
+
+
+
+#butt{
+    font-family: 'Tangerine', serif;
+    width: 8%;
+    margin-left: 15px;
+    background-color: rgb(52, 52, 231);
+    color: white;
+    cursor: pointer;
+    border-radius: 50px;
+    padding: 1%;
+}
+
+#clear{
+    font-family: 'Tangerine', serif;
+    width: 8%;
+    margin-left: 15px;
+    background-color: rgb(102, 189, 61);
+    color: white;
+    cursor: pointer;
+    border-radius: 50px;
+    padding: 1%;
+}
+
+#tab{
+    font-family: 'Tangerine', serif;
+    width: 8%;
+    margin-left: 15px;
+    background-color: rgb(102, 189, 61);
+    color: white;
+    cursor: pointer;
+    border-radius: 50px;
+    padding: 1%;
+}
+
+#boo{
+    font-family: 'Tangerine', serif;
+    width: 8%;
+    margin-left: 15px;
+    background-color: white;
+    color: rgb(52, 52, 231); 
+    cursor: pointer;
+    border-radius: 50px;
+    padding: 1%;
+}
+
+@media screen and (max-width: 700px) {
+    #boo{
+        width: 15%;
+    }
+    #butt{
+        width: 15%;
+    }
+    #inp{
+        width: 80%;
+    }
+    #clear{
+        width: 15%;
+    }
+    #tab{
+        width: 17%;
+    }
+  }
+
+#butt:active{
+    box-shadow: 5px 5px 5px rgb(109, 108, 108);
+    transform: scale(0.9);
+    transition: 0.5s;
+}
+
+#clear:active{
+    box-shadow: 5px 5px 5px rgb(109, 108, 108);
+    transform: scale(0.9);
+    transition: 0.5s;
+}
+
+#boo:active{
+    box-shadow: 5px 5px 5px rgb(109, 108, 108);
+    transform: scale(0.9);
+    transition: 0.5s;
+}
+
+#butt:hover{
+    box-shadow: 5px 5px 5px rgb(109, 108, 108);
+    background-color: rgb(18, 2, 141);
+}
+
+#clear:hover{
+    box-shadow: 5px 5px 5px rgb(109, 108, 108);
+    background-color: rgb(84, 152, 52);
+    color: white;
+}
+
+#boo:hover{
+    box-shadow: 5px 5px 5px rgb(109, 108, 108);
+    background-color: rgb(18, 2, 141);
+    color: white;
+}
