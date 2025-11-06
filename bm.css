@@ -28,10 +28,8 @@ h1{
     width: 40%;
 }
 
-
-
 #butt{
-    font-family: 'Tangerine', serif;
+    font-family: 'Oswald', sans-serif;
     width: 8%;
     margin-left: 15px;
     background-color: rgb(52, 52, 231);
@@ -42,7 +40,7 @@ h1{
 }
 
 #clear{
-    font-family: 'Tangerine', serif;
+    font-family: 'Oswald', sans-serif;
     width: 8%;
     margin-left: 15px;
     background-color: rgb(102, 189, 61);
@@ -53,7 +51,7 @@ h1{
 }
 
 #tab{
-    font-family: 'Tangerine', serif;
+    font-family: 'Oswald', sans-serif;
     width: 8%;
     margin-left: 15px;
     background-color: rgb(102, 189, 61);
@@ -64,7 +62,7 @@ h1{
 }
 
 #boo{
-    font-family: 'Tangerine', serif;
+    font-family: 'Oswald', sans-serif;
     width: 8%;
     margin-left: 15px;
     background-color: white;
